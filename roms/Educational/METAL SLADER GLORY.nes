@@ -1,0 +1,576 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+    <title>首页-雪饮NES游戏下载中心｜NES游戏网</title>
+    <meta content="text/html; charset=UTF-8"/>
+    <meta name="keywords" content="nes游戏下载中心,nes,nes下载,nes游戏,fc游戏,nes模拟器,fc模拟器,nes游戏下载">
+    <meta name="description" content="雪饮NES游戏网是全国最好的NES／FC游戏资源网，nes游戏下载中心，拥有良好的用户体验，提供所有发行过的NES／FC游戏的下载">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/statics/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/statics/css/A.base.css.pagespeed.cf.eBYGk4kVWk.css"/>
+    <meta name="google-site-verification" content="ECmiQrAmh8HPYqXxT4GFQHd2uECS1ACIgQkIkFYhF28"/>
+</head>
+<body>
+<div class="container">
+
+    <!--头部开始-->
+    <div id="header">
+<div class="navbar navbar-fixed-top">
+<div class="navbar-inner">
+<a class="brand" href="/"><img src="/statics/images/xlogo.png.pagespeed.ic.R8wRKoxY2-.png" alt="nes游戏下载中心"></a>
+<ul class="nav">
+
+<li><a href="/action/">动作类</a></li>
+<li><a href="/Roleplay/">角色扮演</a></li>
+<li><a href="/shooter/">射击类</a></li>
+<li><a href="/sports/">运动类</a></li>
+<li><a href="/Educational/">益智类</a></li>
+<li><a href="/Strategy/">策略类</a></li>
+<li><a href="/adventure/">冒险类</a></li>
+<li><a href="/racing/">竞速类</a></li>
+<li><a href="/Chess/">棋牌类</a></li>
+<li><a href="/Desktop/">桌面类</a></li>
+<li><a href="/Strategysimulation/">战略模拟</a></li>
+<li><a href="/Collection/">合辑类</a></li>
+   
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" onClick="xianshi();">
+更多
+<b class="caret"></b>
+</a>
+<ul class="dropdown-menu" style="display:none;"  id="caidan">
+<li><a href="http://fc.gaojiupan.cn/fighting/">格斗类</a></li>
+<li><a href="http://fc.gaojiupan.cn/ComputerNesEmulator/">电脑nes模拟器</a></li>
+<li><a href="http://fc.gaojiupan.cn/MobilePhoneNesEmulator/">手机nes模拟器</a></li>
+<li><a href="http://fc.gaojiupan.cn/ConsoleNesEmulator/">游戏机nes模拟器</a></li>
+<li><a href="http://fc.gaojiupan.cn/Music/">音乐类</a></li>
+<li><a href="http://fc.gaojiupan.cn/ComputerSnesSimulator/">电脑Snes模拟器</a></li>
+<li><a href="http://fc.gaojiupan.cn/MobilePhoneSnesSimulator/">手机Snes模拟器</a></li>
+<li><a href="http://fc.gaojiupan.cn/TheOnlineDemo/">在线试玩</a></li>
+<li><a href=""></a></li>
+<li><a href="http://fc.gaojiupan.cn/other/">其它</a></li>
+
+</ul>
+</li>
+</ul>
+<script type="text/javascript" src="/statics/js/search_common.js"></script>
+<span class="navbar-form pull-right">
+<!--<script type="text/javascript">
+function search(){
+	var searchvalue=document.getElementById("nav_search").value;
+	}
+</script>-->
+<form action="/api/qzss/index.php" method="post">
+<input name="search_value" type="text" required class="span2" id="nav_search" placeholder="请输入关键词">
+<input type="submit" class="btn"  value="搜索"/>
+</form>
+            
+
+</span>
+</div>
+</div>
+<div id="top" class="row-fluid">
+</div>
+</div>
+<style>
+    .brand{
+        padding:5px 0px 5px 20px
+    }
+</style>
+<script type="text/javascript">
+    function xianshi(){
+
+        var getDisplay=document.getElementById("caidan").style.display;
+        if(getDisplay=="none"){
+            document.getElementById("caidan").style.display="block";
+        }
+        else{
+            document.getElementById("caidan").style.display="none";
+        }
+    }
+
+    function ismobile(){
+        var ua = navigator.userAgent;
+
+        var ipad = ua.match(/(iPad).*OS\s([\d_]+)/),
+
+            isIphone =!ipad && ua.match(/(iPhone\sOS)\s([\d_]+)/),
+
+            isAndroid = ua.match(/(Android)\s+([\d.]+)/),
+
+            isMobile = isIphone || isAndroid;
+
+//判断
+
+        if(isMobile){
+            return true;
+        }else{
+            return false;
+        }
+    }
+
+    function Trim(str)
+    {
+        var str2;
+        if (str == null)
+        {
+            str = "";
+        } else {
+            str2 = str.toString().replace(/(^\s*)|(\s*$)/g, "");
+        }
+        return str2;
+    }
+</script>    <!--头部结束-->
+    <div id="main" class="row-fluid">
+        <div id="left" class="span8">
+            <div id="carousel" class="row-fluid">
+                <div>
+                    <a href="/APP/xynes.apk"><img src="/public/xynesbanner.jpg"></a>
+                </div>
+            </div>
+            <div id="related_object" class="row-fluid">
+                <div class="main-title">最新游戏：</div>
+
+                <!--循环开始-->
+                                                <div class="span3 article-box">
+                    <div class="article-img">
+                        <a href="http://fc.gaojiupan.cn/action/2_1.html"><img src="/uploadfile/2015/1031/20151031072649442.png" alt="超级玛丽奥（泣兔狩版）" style="width:120px;height:113px;"></a>
+                        <div style="display: none" class="popover-content">
+                            <div class="line">
+                                <h4>超级玛丽奥（泣兔狩版）</h4>
+                            </div>
+                            <div class="summary">
+                                <ul class="unstyled">
+                                    <li><span class="text-info"><i class="icon-star"></i>评分： </span>1</li>
+                                    <li><i class="icon-time"></i><span class="text-info">更新时间： </span>2015-10-31 07:24:33</li>
+                                    <li><span class="text-info"><i class="icon-list"></i>分类： </span>动作类</li>
+                                    <li><span class="text-info"><i class=" icon-flag"></i>语言：</span>英文</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="width:120px;white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis;overflow: hidden; "><a href="http://fc.gaojiupan.cn/action/2_1.html">超级玛丽奥（泣兔狩版）</a></div>
+                </div>
+                                <div class="span3 article-box">
+                    <div class="article-img">
+                        <a href="http://fc.gaojiupan.cn/action/6_1.html"><img src="/uploadfile/2015/1102/20151102102336902.jpg" alt="蝙蝠侠2小丑回归" style="width:120px;height:113px;"></a>
+                        <div style="display: none" class="popover-content">
+                            <div class="line">
+                                <h4>蝙蝠侠2小丑回归</h4>
+                            </div>
+                            <div class="summary">
+                                <ul class="unstyled">
+                                    <li><span class="text-info"><i class="icon-star"></i>评分： </span>4</li>
+                                    <li><i class="icon-time"></i><span class="text-info">更新时间： </span>2015-11-02 10:22:42</li>
+                                    <li><span class="text-info"><i class="icon-list"></i>分类： </span>动作类</li>
+                                    <li><span class="text-info"><i class=" icon-flag"></i>语言：</span>英文</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="width:120px;white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis;overflow: hidden; "><a href="http://fc.gaojiupan.cn/action/6_1.html">蝙蝠侠2小丑回归</a></div>
+                </div>
+                                <div class="span3 article-box">
+                    <div class="article-img">
+                        <a href="http://fc.gaojiupan.cn/action/7_1.html"><img src="/uploadfile/2015/1102/20151102102821113.jpg" alt="绝岭雄风" style="width:120px;height:113px;"></a>
+                        <div style="display: none" class="popover-content">
+                            <div class="line">
+                                <h4>绝岭雄风</h4>
+                            </div>
+                            <div class="summary">
+                                <ul class="unstyled">
+                                    <li><span class="text-info"><i class="icon-star"></i>评分： </span>3</li>
+                                    <li><i class="icon-time"></i><span class="text-info">更新时间： </span>2015-11-02 10:26:08</li>
+                                    <li><span class="text-info"><i class="icon-list"></i>分类： </span>动作类</li>
+                                    <li><span class="text-info"><i class=" icon-flag"></i>语言：</span>英文</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="width:120px;white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis;overflow: hidden; "><a href="http://fc.gaojiupan.cn/action/7_1.html">绝岭雄风</a></div>
+                </div>
+                                <div class="span3 article-box">
+                    <div class="article-img">
+                        <a href="http://fc.gaojiupan.cn/action/8_1.html"><img src="/uploadfile/2015/1102/20151102104029582.jpg" alt="愤怒的黑忍者" style="width:120px;height:113px;"></a>
+                        <div style="display: none" class="popover-content">
+                            <div class="line">
+                                <h4>愤怒的黑忍者</h4>
+                            </div>
+                            <div class="summary">
+                                <ul class="unstyled">
+                                    <li><span class="text-info"><i class="icon-star"></i>评分： </span>2</li>
+                                    <li><i class="icon-time"></i><span class="text-info">更新时间： </span>2015-11-02 10:36:51</li>
+                                    <li><span class="text-info"><i class="icon-list"></i>分类： </span>动作类</li>
+                                    <li><span class="text-info"><i class=" icon-flag"></i>语言：</span>英文</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="width:120px;white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis;overflow: hidden; "><a href="http://fc.gaojiupan.cn/action/8_1.html">愤怒的黑忍者</a></div>
+                </div>
+                                <div class="span3 article-box">
+                    <div class="article-img">
+                        <a href="http://fc.gaojiupan.cn/action/9_1.html"><img src="/uploadfile/2015/1102/20151102110859780.jpg" alt="恐龙战士" style="width:120px;height:113px;"></a>
+                        <div style="display: none" class="popover-content">
+                            <div class="line">
+                                <h4>恐龙战士</h4>
+                            </div>
+                            <div class="summary">
+                                <ul class="unstyled">
+                                    <li><span class="text-info"><i class="icon-star"></i>评分： </span>3</li>
+                                    <li><i class="icon-time"></i><span class="text-info">更新时间： </span>2015-11-02 11:06:58</li>
+                                    <li><span class="text-info"><i class="icon-list"></i>分类： </span>动作类</li>
+                                    <li><span class="text-info"><i class=" icon-flag"></i>语言：</span>英文</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="width:120px;white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis;overflow: hidden; "><a href="http://fc.gaojiupan.cn/action/9_1.html">恐龙战士</a></div>
+                </div>
+                                <div class="span3 article-box">
+                    <div class="article-img">
+                        <a href="http://fc.gaojiupan.cn/action/10_1.html"><img src="/uploadfile/2015/1102/20151102020607440.jpg" alt="幽游白书6" style="width:120px;height:113px;"></a>
+                        <div style="display: none" class="popover-content">
+                            <div class="line">
+                                <h4>幽游白书6</h4>
+                            </div>
+                            <div class="summary">
+                                <ul class="unstyled">
+                                    <li><span class="text-info"><i class="icon-star"></i>评分： </span>5</li>
+                                    <li><i class="icon-time"></i><span class="text-info">更新时间： </span>2015-11-02 13:59:54</li>
+                                    <li><span class="text-info"><i class="icon-list"></i>分类： </span>动作类</li>
+                                    <li><span class="text-info"><i class=" icon-flag"></i>语言：</span>英文</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="width:120px;white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis;overflow: hidden; "><a href="http://fc.gaojiupan.cn/action/10_1.html">幽游白书6</a></div>
+                </div>
+                                <div class="span3 article-box">
+                    <div class="article-img">
+                        <a href="http://fc.gaojiupan.cn/action/11_1.html"><img src="/uploadfile/2015/1102/20151102020823641.jpg" alt="加菲懒猫" style="width:120px;height:113px;"></a>
+                        <div style="display: none" class="popover-content">
+                            <div class="line">
+                                <h4>加菲懒猫</h4>
+                            </div>
+                            <div class="summary">
+                                <ul class="unstyled">
+                                    <li><span class="text-info"><i class="icon-star"></i>评分： </span>3</li>
+                                    <li><i class="icon-time"></i><span class="text-info">更新时间： </span>2015-11-02 14:07:39</li>
+                                    <li><span class="text-info"><i class="icon-list"></i>分类： </span>动作类</li>
+                                    <li><span class="text-info"><i class=" icon-flag"></i>语言：</span>英文</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="width:120px;white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis;overflow: hidden; "><a href="http://fc.gaojiupan.cn/action/11_1.html">加菲懒猫</a></div>
+                </div>
+                                <div class="span3 article-box">
+                    <div class="article-img">
+                        <a href="http://fc.gaojiupan.cn/action/12_1.html"><img src="/uploadfile/2015/1102/20151102021202227.jpg" alt="唐老鸭的世界" style="width:120px;height:113px;"></a>
+                        <div style="display: none" class="popover-content">
+                            <div class="line">
+                                <h4>唐老鸭的世界</h4>
+                            </div>
+                            <div class="summary">
+                                <ul class="unstyled">
+                                    <li><span class="text-info"><i class="icon-star"></i>评分： </span>2</li>
+                                    <li><i class="icon-time"></i><span class="text-info">更新时间： </span>2015-11-02 14:10:26</li>
+                                    <li><span class="text-info"><i class="icon-list"></i>分类： </span>动作类</li>
+                                    <li><span class="text-info"><i class=" icon-flag"></i>语言：</span>英文</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="width:120px;white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis;overflow: hidden; "><a href="http://fc.gaojiupan.cn/action/12_1.html">唐老鸭的世界</a></div>
+                </div>
+                                <div class="span3 article-box">
+                    <div class="article-img">
+                        <a href="http://fc.gaojiupan.cn/action/13_1.html"><img src="/uploadfile/2015/1102/20151102021510406.jpg" alt="JuJu传说(中文)" style="width:120px;height:113px;"></a>
+                        <div style="display: none" class="popover-content">
+                            <div class="line">
+                                <h4>JuJu传说(中文)</h4>
+                            </div>
+                            <div class="summary">
+                                <ul class="unstyled">
+                                    <li><span class="text-info"><i class="icon-star"></i>评分： </span>2</li>
+                                    <li><i class="icon-time"></i><span class="text-info">更新时间： </span>2015-11-02 14:13:05</li>
+                                    <li><span class="text-info"><i class="icon-list"></i>分类： </span>动作类</li>
+                                    <li><span class="text-info"><i class=" icon-flag"></i>语言：</span>英文</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="width:120px;white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis;overflow: hidden; "><a href="http://fc.gaojiupan.cn/action/13_1.html">JuJu传说(中文)</a></div>
+                </div>
+                                <div class="span3 article-box">
+                    <div class="article-img">
+                        <a href="http://fc.gaojiupan.cn/action/14_1.html"><img src="/uploadfile/2015/1102/20151102021701646.jpg" alt="街头格斗小子(中文)" style="width:120px;height:113px;"></a>
+                        <div style="display: none" class="popover-content">
+                            <div class="line">
+                                <h4>街头格斗小子(中文)</h4>
+                            </div>
+                            <div class="summary">
+                                <ul class="unstyled">
+                                    <li><span class="text-info"><i class="icon-star"></i>评分： </span>2</li>
+                                    <li><i class="icon-time"></i><span class="text-info">更新时间： </span>2015-11-02 14:15:52</li>
+                                    <li><span class="text-info"><i class="icon-list"></i>分类： </span>动作类</li>
+                                    <li><span class="text-info"><i class=" icon-flag"></i>语言：</span>英文</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="width:120px;white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis;overflow: hidden; "><a href="http://fc.gaojiupan.cn/action/14_1.html">街头格斗小子(中文)</a></div>
+                </div>
+                                <div class="span3 article-box">
+                    <div class="article-img">
+                        <a href="http://fc.gaojiupan.cn/action/15_1.html"><img src="/uploadfile/2015/1102/20151102022059472.jpg" alt="英雄列车救美" style="width:120px;height:113px;"></a>
+                        <div style="display: none" class="popover-content">
+                            <div class="line">
+                                <h4>英雄列车救美</h4>
+                            </div>
+                            <div class="summary">
+                                <ul class="unstyled">
+                                    <li><span class="text-info"><i class="icon-star"></i>评分： </span>1</li>
+                                    <li><i class="icon-time"></i><span class="text-info">更新时间： </span>2015-11-02 14:20:19</li>
+                                    <li><span class="text-info"><i class="icon-list"></i>分类： </span>动作类</li>
+                                    <li><span class="text-info"><i class=" icon-flag"></i>语言：</span>英文</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="width:120px;white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis;overflow: hidden; "><a href="http://fc.gaojiupan.cn/action/15_1.html">英雄列车救美</a></div>
+                </div>
+                                <div class="span3 article-box">
+                    <div class="article-img">
+                        <a href="http://fc.gaojiupan.cn/action/16_1.html"><img src="/uploadfile/2015/1102/20151102022250785.jpg" alt="终极甲子园" style="width:120px;height:113px;"></a>
+                        <div style="display: none" class="popover-content">
+                            <div class="line">
+                                <h4>终极甲子园</h4>
+                            </div>
+                            <div class="summary">
+                                <ul class="unstyled">
+                                    <li><span class="text-info"><i class="icon-star"></i>评分： </span>2</li>
+                                    <li><i class="icon-time"></i><span class="text-info">更新时间： </span>2015-11-02 14:22:11</li>
+                                    <li><span class="text-info"><i class="icon-list"></i>分类： </span>动作类</li>
+                                    <li><span class="text-info"><i class=" icon-flag"></i>语言：</span>英文</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="width:120px;white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis;overflow: hidden; "><a href="http://fc.gaojiupan.cn/action/16_1.html">终极甲子园</a></div>
+                </div>
+                                <div class="span3 article-box">
+                    <div class="article-img">
+                        <a href="http://fc.gaojiupan.cn/action/17_1.html"><img src="/uploadfile/2015/1102/20151102022449606.jpg" alt="最佳职业棒球90" style="width:120px;height:113px;"></a>
+                        <div style="display: none" class="popover-content">
+                            <div class="line">
+                                <h4>最佳职业棒球90</h4>
+                            </div>
+                            <div class="summary">
+                                <ul class="unstyled">
+                                    <li><span class="text-info"><i class="icon-star"></i>评分： </span>3</li>
+                                    <li><i class="icon-time"></i><span class="text-info">更新时间： </span>2015-11-02 14:23:50</li>
+                                    <li><span class="text-info"><i class="icon-list"></i>分类： </span>动作类</li>
+                                    <li><span class="text-info"><i class=" icon-flag"></i>语言：</span>英文</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="width:120px;white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis;overflow: hidden; "><a href="http://fc.gaojiupan.cn/action/17_1.html">最佳职业棒球90</a></div>
+                </div>
+                                <div class="span3 article-box">
+                    <div class="article-img">
+                        <a href="http://fc.gaojiupan.cn/action/18_1.html"><img src="/uploadfile/2015/1102/20151102023011373.jpg" alt="篮球宿敌" style="width:120px;height:113px;"></a>
+                        <div style="display: none" class="popover-content">
+                            <div class="line">
+                                <h4>篮球宿敌</h4>
+                            </div>
+                            <div class="summary">
+                                <ul class="unstyled">
+                                    <li><span class="text-info"><i class="icon-star"></i>评分： </span>1</li>
+                                    <li><i class="icon-time"></i><span class="text-info">更新时间： </span>2015-11-02 14:29:33</li>
+                                    <li><span class="text-info"><i class="icon-list"></i>分类： </span>动作类</li>
+                                    <li><span class="text-info"><i class=" icon-flag"></i>语言：</span>英文</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="width:120px;white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis;overflow: hidden; "><a href="http://fc.gaojiupan.cn/action/18_1.html">篮球宿敌</a></div>
+                </div>
+                                <div class="span3 article-box">
+                    <div class="article-img">
+                        <a href="http://fc.gaojiupan.cn/action/19_1.html"><img src="/uploadfile/2015/1102/20151102023148460.jpg" alt="足球联赛-冠军杯" style="width:120px;height:113px;"></a>
+                        <div style="display: none" class="popover-content">
+                            <div class="line">
+                                <h4>足球联赛-冠军杯</h4>
+                            </div>
+                            <div class="summary">
+                                <ul class="unstyled">
+                                    <li><span class="text-info"><i class="icon-star"></i>评分： </span>1</li>
+                                    <li><i class="icon-time"></i><span class="text-info">更新时间： </span>2015-11-02 14:30:55</li>
+                                    <li><span class="text-info"><i class="icon-list"></i>分类： </span>动作类</li>
+                                    <li><span class="text-info"><i class=" icon-flag"></i>语言：</span>英文</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="width:120px;white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis;overflow: hidden; "><a href="http://fc.gaojiupan.cn/action/19_1.html">足球联赛-冠军杯</a></div>
+                </div>
+                                <div class="span3 article-box">
+                    <div class="article-img">
+                        <a href="http://fc.gaojiupan.cn/action/20_1.html"><img src="/uploadfile/2015/1102/20151102023255601.jpg" alt="美国冰球" style="width:120px;height:113px;"></a>
+                        <div style="display: none" class="popover-content">
+                            <div class="line">
+                                <h4>美国冰球</h4>
+                            </div>
+                            <div class="summary">
+                                <ul class="unstyled">
+                                    <li><span class="text-info"><i class="icon-star"></i>评分： </span>1</li>
+                                    <li><i class="icon-time"></i><span class="text-info">更新时间： </span>2015-11-02 14:32:25</li>
+                                    <li><span class="text-info"><i class="icon-list"></i>分类： </span>动作类</li>
+                                    <li><span class="text-info"><i class=" icon-flag"></i>语言：</span>英文</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="width:120px;white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis;overflow: hidden; "><a href="http://fc.gaojiupan.cn/action/20_1.html">美国冰球</a></div>
+                </div>
+                                                <!--循环结束-->
+            </div>
+        </div>
+        <div id="right" class="span4">
+
+            <div class="side-title"><span class="side-title-name">最受欢迎游戏</span></div>
+            <ol>
+
+                                                <li><a href="http://fc.gaojiupan.cn/shooter/56_1.html" title="超级魂斗罗30条命">超级魂斗罗30条命</a></li>
+                                <li><a href="http://fc.gaojiupan.cn/action/1119_1.html" title="超级玛丽1 无敌版">超级玛丽1 无敌版</a></li>
+                                <li><a href="http://fc.gaojiupan.cn/action/1732_1.html" title="忍者神龟3必杀不费血命无限">忍者神龟3必杀不费血命无限</a></li>
+                                <li><a href="http://fc.gaojiupan.cn/shooter/3015_1.html" title="魂斗罗1代无限人散弹枪">魂斗罗1代无限人散弹枪</a></li>
+                                <li><a href="http://fc.gaojiupan.cn/action/1183_1.html" title="雪人兄弟 加强版">雪人兄弟 加强版</a></li>
+                                <li><a href="http://fc.gaojiupan.cn/shooter/3278_1.html" title="赤色要塞无敌版">赤色要塞无敌版</a></li>
+                                <li><a href="http://fc.gaojiupan.cn/shooter/3054_1.html" title="90坦克大战快速子弹">90坦克大战快速子弹</a></li>
+                                <li><a href="http://fc.gaojiupan.cn/Collection/4803_1.html" title="68合1(内含烟山坦克，即可消草的90坦克)">68合1(内含烟山坦克，即可消草的90坦克)</a></li>
+                                <li><a href="http://fc.gaojiupan.cn/ComputerNesEmulator/618_1.html" title="VirtuaNES 0.97 绿色版 NES模拟器FC模拟器">VirtuaNES 0.97 绿色版 NES模拟器FC模拟器</a></li>
+                                <li><a href="http://fc.gaojiupan.cn/shooter/3038_1.html" title="魂斗罗1中文无限命">魂斗罗1中文无限命</a></li>
+                                <li><a href="http://fc.gaojiupan.cn/action/1489_1.html" title="双截龙2-无敌版">双截龙2-无敌版</a></li>
+                                <li><a href="http://fc.gaojiupan.cn/shooter/3019_1.html" title="魂斗罗6代高跳无限命">魂斗罗6代高跳无限命</a></li>
+                                <li><a href="http://fc.gaojiupan.cn/action/2_1.html" title="超级玛丽奥（泣兔狩版）">超级玛丽奥（泣兔狩版）</a></li>
+                                <li><a href="http://fc.gaojiupan.cn/shooter/3247_1.html" title="坦克大战散弹导弹版">坦克大战散弹导弹版</a></li>
+                                <li><a href="http://fc.gaojiupan.cn/adventure/4281_1.html" title="水上魂斗罗：赤影战士（无敌版）">水上魂斗罗：赤影战士（无敌版）</a></li>
+                                            </ol>
+            <div class="side-title"><span class="side-title-name">随机推荐</span></div>
+            <ol>
+                                                <li>
+                    <div style="width: 14rem;white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis;overflow: hidden;">
+                    <a href="http://fc.gaojiupan.cn/action/1525_1.html" title="混沌博士(U)">混沌博士(U)</a>
+                    </div>
+                </li>
+                                <li>
+                    <div style="width: 14rem;white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis;overflow: hidden;">
+                    <a href="http://fc.gaojiupan.cn/action/1493_1.html" title="忍者神龟1-无敌版">忍者神龟1-无敌版</a>
+                    </div>
+                </li>
+                                <li>
+                    <div style="width: 14rem;white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis;overflow: hidden;">
+                    <a href="http://fc.gaojiupan.cn/action/811_1.html" title="3D战役-世界亚军">3D战役-世界亚军</a>
+                    </div>
+                </li>
+                                <li>
+                    <div style="width: 14rem;white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis;overflow: hidden;">
+                    <a href="http://fc.gaojiupan.cn/Chess/4641_1.html" title="森田和郎将棋">森田和郎将棋</a>
+                    </div>
+                </li>
+                                <li>
+                    <div style="width: 14rem;white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis;overflow: hidden;">
+                    <a href="http://fc.gaojiupan.cn/other/5176_1.html" title="TitanicMystery(AonoSenritsu)(磁碟机版)">TitanicMystery(AonoSenritsu)(磁碟机版)</a>
+                    </div>
+                </li>
+                                <li>
+                    <div style="width: 14rem;white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis;overflow: hidden;">
+                    <a href="http://fc.gaojiupan.cn/Educational/208_1.html" title="本家实战机台柏青哥1 (日)">本家实战机台柏青哥1 (日)</a>
+                    </div>
+                </li>
+                                <li>
+                    <div style="width: 14rem;white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis;overflow: hidden;">
+                    <a href="http://fc.gaojiupan.cn/TheOnlineDemo/1284_1.html" title="双截龙3(可跳关版)在线版">双截龙3(可跳关版)在线版</a>
+                    </div>
+                </li>
+                                <li>
+                    <div style="width: 14rem;white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis;overflow: hidden;">
+                    <a href="http://fc.gaojiupan.cn/racing/4573_1.html" title="马路英雄中文(公路赛车中文、火箭车中文)">马路英雄中文(公路赛车中文、火箭车中文)</a>
+                    </div>
+                </li>
+                                <li>
+                    <div style="width: 14rem;white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis;overflow: hidden;">
+                    <a href="http://fc.gaojiupan.cn/TheOnlineDemo/1286_1.html" title="双截龙3(无敌版)在线版">双截龙3(无敌版)在线版</a>
+                    </div>
+                </li>
+                                <li>
+                    <div style="width: 14rem;white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis;overflow: hidden;">
+                    <a href="http://fc.gaojiupan.cn/TheOnlineDemo/1400_1.html" title="北斗神拳第三部在线版">北斗神拳第三部在线版</a>
+                    </div>
+                </li>
+                                <li>
+                    <div style="width: 14rem;white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis;overflow: hidden;">
+                    <a href="http://fc.gaojiupan.cn/shooter/3252_1.html" title="机械枪">机械枪</a>
+                    </div>
+                </li>
+                                <li>
+                    <div style="width: 14rem;white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis;overflow: hidden;">
+                    <a href="http://fc.gaojiupan.cn/shooter/3419_1.html" title="阿贝道X(绝对合体)">阿贝道X(绝对合体)</a>
+                    </div>
+                </li>
+                                <li>
+                    <div style="width: 14rem;white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis;overflow: hidden;">
+                    <a href="http://fc.gaojiupan.cn/TheOnlineDemo/5199_1.html" title="横断美国问答-史上最大的战斗在线版">横断美国问答-史上最大的战斗在线版</a>
+                    </div>
+                </li>
+                                <li>
+                    <div style="width: 14rem;white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis;overflow: hidden;">
+                    <a href="http://fc.gaojiupan.cn/Chess/4599_1.html" title="围棋指南94 日版">围棋指南94 日版</a>
+                    </div>
+                </li>
+                                <li>
+                    <div style="width: 14rem;white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis;overflow: hidden;">
+                    <a href="http://fc.gaojiupan.cn/action/2081_1.html" title="米老鼠字母岛大冒险">米老鼠字母岛大冒险</a>
+                    </div>
+                </li>
+                                
+
+            </ol>
+            <div class="side-title"><span class="side-title-name">合作伙伴</span></div>
+            <ol>
+
+                                                <li><a href="http://www.gaojiupan.cn" title="雪饮个人博客" target="_blank"><img src="/uploadfile/2015/1103/20151103092320971.jpg" style="width:90px;height:30px;" /></a></li>
+                <br/>
+                                <li><a href="http://www.jirachi.cn/" title="小祈祈个人博客" target="_blank"><img src="/uploadfile/2015/1205/20151205114340112.png" style="width:90px;height:30px;" /></a></li>
+                <br/>
+                                <li><a href="http://www.gaojiufeng.cn/" title="高久峰个人博客" target="_blank"><img src="/uploadfile/2016/0123/20160123114348315.png" style="width:90px;height:30px;" /></a></li>
+                <br/>
+                                            </ol>
+        </div>
+    </div>
+    <div id="footer" class="row-fluid text-center">
+<a href="/">nes游戏下载中心</a>|
+<a href="/" title="nes游戏下载中">NES游戏</a> |
+<a href="#top">2015-2016</a> <br/>陕ICP备14003371号-2
+</div>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"slide":{"type":"slide","bdImg":"4","bdPos":"right","bdTop":"135.5"},"image":{"viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?1d0339a8a6e8acde8f3c9e71fd077088";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script></div>
+<script src="/statics/js/jquery.min.js"></script>
+<script>var object_max_len=300;function search_navigate(){var obj=document.getElementById("nav_search");var keyword=obj.value;var dst="/search/"+keyword;if(keyword!=''){window.location=dst;}else{return false;};}
+$(document).ready(function(){$('.article-img a').each(function(){$(this).popover({'content':$(this).next().html(),'trigger':'hover','html':true,'delay':{show:500,hide:100}});});});$(document).ready(function(){$('#main').css({'margin-top':$('.navbar').height()-21});});$(window).resize(function(){$('#main').css({'margin-top':$('.navbar').height()-21});});</script>
+<script src="/statics/js/bootstrap.min.js"></script>
+<script>var span=document.getElementById("city");span.innerHTML=remote_ip_info.city;</script>
+</body>
+</html>
